@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ede6e6;
+    background-image: url("bg1.jpeg");
+    background-size: 100vw 80vh;
+}
+nav{
+    font-family: 'Dancing Script', cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: #1f1c1c;
+    color: #dee4e8;
+}
+nav ul span{
+    color: #dee4e8;
+}
+nav ul li{
+    margin:0  12px;
+    font-size: small;
+}
+nav #Home ,#about,#signin{
+    color: #dee4e8;
+    text-decoration: none;
+}
+nav #Home:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+#about:hover,#signin:hover{
+    color: #ffffff;
+    text-decoration: underline;
+  }
+.logo img{
+    width: 65px;
+    border-radius: 50%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: #0d0c0c;
+    color: #f0f3f5;
+    /* display:flex; */
+    margin: 23px auto;
+    width: 50vw;
+    background-image: url("bg.jpg");
+    background-size: contain;
+}
+.container h1{
+    margin: 15px ;
+}
+.bottom{
+    position: sticky;
+    background-color: #151111;
+    height: 150px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    flex-direction: column;
+}
+.bottom input{
+    width:80vw;
+    color: #f3f4ea;
+    cursor: pointer;
+}
+/* #myprogressbar{
+    color: #2c4658;
+} */
+.bottom .icons i{
+    color: #ecf0f3;
+    margin:12px 0;
+   background-size:50px ;
+}
+.songbanner {
+    height: 25px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    color: #0d0c0c;
+    border-radius: 20px;
+    margin: 10px 12px;
+
+}
+.songbanner img{
+    width: 50px;
+    border-radius: 20px;
+   margin: 0  35px 0 0px;
+   
+}
+.songbanner .timestamp{
+    margin: 0 0 0 10% ;
+}
+.songit{
+width: 50%;
+}
+.timestamp{
+    margin: 0 2px;
+    /* cursor: pointer; */
+    display: flex;
+    
+}
+.timestamp i{
+    cursor: pointer;
+    margin: 0 15px;
+}
+.bottom .songInfo img{
+    height: 20px;
+    opacity: 0;
+   transition:opacity 0.01s ease-in;
+}
+.songInfo{
+    display: flex;
+    align-items: center;
+}

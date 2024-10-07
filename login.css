@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("bglogin.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.tform{
+    border: 2px solid #000000;
+    border-radius: 15%;
+    width: 35%;
+    height: 50vh;
+    /* text-align: center; */
+    /* margin: auto; */
+    /* margin: 10% ; */
+   margin: auto;
+   margin-top: 10% ;
+   
+}
+h1{
+    text-align: center;
+    color: black;
+    margin-top: 4%;
+}
+.signup{
+    margin: 0 25% 0 0;
+    background-color: #fff;
+    padding: 5px 10px ;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.signup:hover{
+     background-color: #000000;
+     color: #fff;
+}
+.signin{
+     background-color: #0000ff;
+     color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.signin:hover{
+    background-color: #eceaea;
+    color:#0000ff;
+}
+.input-set{
+    margin:1%  22% ;
+}
+.tform form .input-set input{
+    margin: 2%;
+    font-size: larger;
+   
+}
+.input-set span{
+    color: #1b1366;
+}
+.tform form .input-set label{
+       color: #807777;
+}
